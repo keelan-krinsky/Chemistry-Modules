@@ -7,7 +7,7 @@ output: html_document
 
 # Imports
 
-# Saturated Heteroatoms
+# Saturated Heteroatom Compounds
 A heteroatom is any atom aside from Carbon and hydrogen, a heteroatom compound is a compound containing at least one heteroatom. 
 
 ### Bond polarisation

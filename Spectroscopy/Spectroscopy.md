@@ -1,8 +1,42 @@
 ---
-title: "Organic Chemistry"
+title: "Spectroscopy"
 output: html_document
-Author: Tanner
+
 ---
+
+# Imports
+
+import EMRad as EMRad
+import IRSpec as IRSpec
+import GRSpec as GRSpec
+import XRSpec as XRSpec
+import UVVisSpec as UVVisSpec
+import MSpec as MSpec
+import NMRSPec as NMRSpec 
+import DBE as DBE
+
+# Spectroscopy 
+
+## Background 
+Spectroscopy is a set of techniques in which the response of molecules to the input of energy is measured. Electromagnetic radiation is applied to compounds and the interaction of this radiation with the compound is then observed. 
+
+##__EMRad: Electromagnetic waves__ 
+
+##__IRSpec: Infra Red Spectrometry__
+
+##__GRSpec: Gamma Rays__
+
+##__XRSpec: X Ray Spectroscopy__
+
+##__UVVisSpec: Ultra Violet and Visible Light Spectroscopy__
+
+##__MSpec: Microwave Spectroscopy__
+
+##__NMRSpec: NMR Spectroscopy__
+
+##__DBE:Double Bond Equivalents__
+
+
 
 # Organic Chemistry 
  
@@ -12,7 +46,7 @@ import Alkenes as Alkenes
 
 ## NMR. 
 
- ### SAmple preparation. 
+ ### Sample preparation. 
 COPY Image. 
 Sample in a tube which spins rapidly, and is often in solution (solid state NMR is possible but not often used). The solvent must be chosen so as not to interfere. 
 
@@ -27,7 +61,7 @@ jacket of liquid helium, and jacket of liquid nitrogen.
 
 ##### Chemical shift. 
 Gives information about the groups surrounding the proton in question. Each different chemical environment gives a signal.
-The first question is are the nuclei in question readily chemically distinguishable. In general it is easy to tell groups apart but more difficult within a group all attatched to the same atom and constantly rotating, (NMR cannot distinguish between them either). For all chemically equivalent  hydrogens/nuclei only one peak will be seen. For each set of protons in a unique environment a different peak will be seen.  The smae will apply to $^{13}C$ carbons. 
+The first question is are the nuclei in question readily chemically distinguishable. In general it is easy to tell groups apart but more difficult within a group all attached to the same atom and constantly rotating, (NMR cannot distinguish between them either). For all chemically equivalent  hydrogens /nuclei only one peak will be seen. For each set of protons in a unique environment a different peak will be seen.  The smae will apply to $^{13}C$ carbons. 
 
 The height of the signal depends on the time of relaxation to ground state, as a general rule quanternary carbons will relax slower giving s smaller peak. 
 
@@ -145,3 +179,4 @@ a $pi$ bond is waeker than a $\sigma$ bond, becuase this bond is weaker is allow
 # 14.4
 a) Option 2 which results in the formation of a more stable teriary carbocationic intermediate is favoured as the above reactions are examples of SN_1 reactions and thus the water which is a polar protic solvent will result in the stabilization of the carbocationic intermediate formed in the second reaction and it will thus be considered as the fast occuring reaction.
 b) This process occurs via the SN_2 reaction mechanism and both reactions result in the formation of a primary carbocationic intermediate However, the first reaction is favoured as it occurs in the presense of a polar aprotic solvent acetone and it will thus be considered as the fast occuring reaction.
+
