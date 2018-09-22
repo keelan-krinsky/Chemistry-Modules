@@ -1,12 +1,11 @@
 ---
 title: "Absorbance"
-output: html_document
+author: "Keelan Krinsky"
+output: pdf_document
 
 ---
 
 # Imports
-
-import Transmittance as Transmittance
 
 # Absorbance
 Absorbance is a measure of the extent to which a substance transmits electromagnetic radiation. 
@@ -21,6 +20,3 @@ Where:\newline
 > $I_0$ = Intensity of incident radiation and 
 > $I$ = Intensity of transmitted radiation. 
 
-## Appendix 
-
-###__Transmittance: Transmittance__
